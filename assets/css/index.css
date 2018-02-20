@@ -1,1 +1,15 @@
 @import '_global';
+@import "_font-awesome";
+@import '_ionicons';
+@import '_et-line';
+@import '_bootstrap';
+@import '_material';
+@import "_animate";
+@import "_owl-carousel";
+@import "_owl-theme-default";
+@import "_common";
+@import "_main";
+@import "_responsive";
+@import "_settings";
+@import '_layers';
+@import "_navigation";

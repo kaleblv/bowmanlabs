@@ -1,0 +1,704 @@
+/* ===================================================
+   Archit. Layout Stylesheet
+
+   TOC:
+     01. Variants Styles
+     02. Revolution Slider
+     03. Intro Style
+     04. Icon-Box Styles
+     05. Tabs Styles
+     06. Progress Bar Styles
+     07. Project and Portfolio Styles
+     08. Team Table Styles
+     09. Price Table Styles
+     10. Blog Table Styles
+     11. Counter Styles
+     12. Grid-gallery Styles
+     13. Widget Styles
+
+====================================================== */
+/* ====================================================
+    01. Variants Styles
+==================================================== */
+@import url("https://fonts.googleapis.com/css?family=Khand:300,400,500,600,700");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400");
+/* ---- Color ---- */
+/* ====================================================
+    02. Revolution Slider
+==================================================== */
+.rev-slider-btns {
+  background: transparent !important; }
+
+.rev-slider-btns .btn:first-child {
+  margin-right: 3px; }
+
+.rev-slider-btns .btn:last-child {
+  margin-left: 3px; }
+
+.slide-2 .btn {
+  margin: 0 !important; }
+
+div.tparrows {
+  background: #fff;
+  width: 50px;
+  height: 50px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
+
+div.tparrows:hover {
+  background: #fff;
+  -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15); }
+
+div.tparrows:before {
+  font: normal normal normal 14px/1 'ionicons';
+  line-height: 50px;
+  color: #666;
+  font-size: 24px;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+div.tparrows.tp-leftarrow:before {
+  content: '\f3cf'; }
+
+div.tparrows.tp-rightarrow:before {
+  content: '\f3d1'; }
+
+.rev-title-typo {
+  background: transparent;
+  font-family: "Khand", sans-serif;
+  font-weight: 300;
+  color: #fff;
+  text-align: center; }
+
+.rev-title-typo span {
+  background: transparent;
+  font-weight: 500 !important; }
+
+.rev-subtitle-typo {
+  background: transparent;
+  font-family: "Khand", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  color: #ddd; }
+
+.rev-borderd-title {
+  background: transparent;
+  font-family: "Khand", sans-serif;
+  font-weight: 400;
+  letter-spacing: 4.5px;
+  color: rgba(255, 255, 255, 0.6);
+  padding: 2px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.07);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.07); }
+
+.tp-caption .mdl-button {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  outline: none;
+  font-size: 13px !important;
+  min-width: 130px;
+  margin-left: 0; }
+
+/* Revslider arrow */
+.tparrows.simon-revslider-2-arrow {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15); }
+
+.tparrows.simon-revslider-2-arrow:before {
+  color: #ffffff; }
+
+.tparrows.simon-revslider-2-arrow:hover {
+  background-color: transparent;
+  border: 1px solid #FFC300 !important;
+  color: #FFC300 !important; }
+
+.tparrows.simon-revslider-2-arrow:hover:before {
+  color: #FFC300 !important; }
+
+/* Revslider bullet */
+.simon .tp-bullet {
+  width: 14px;
+  height: 14px;
+  background: rgba(255, 255, 255, 0.15);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  border: 2px solid transparent; }
+
+.tp-bullet.selected,
+.tp-bullet:hover {
+  background: #FFC300 !important;
+  border: 4px solid rgba(255, 255, 255, 0.15) !important; }
+
+.simon-revslider-2 .rev-title-typo {
+  letter-spacing: 0; }
+
+/* ====================================================
+    03. Intro Style
+==================================================== */
+.height-50 {
+  height: 364px; }
+
+.width-668 article {
+  height: 668px; }
+
+.width-668 article p {
+  width: 100%; }
+
+/* ====================================================
+    04. Icon-box Styles
+==================================================== */
+/* ----- icon-box-single-v2 ----- */
+.box-single {
+  padding: 0 15px;
+  margin-bottom: 30px; }
+
+/* ----- icon-box-single ----- */
+.icon-box-single {
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  display: block;
+  padding: 30px 45px 10px;
+  margin-bottom: 30px;
+  position: relative;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
+
+.icon-box-single .icon-box {
+  font-size: 48px;
+  margin-bottom: 10px;
+  color: #FFC300; }
+
+.icon-box-single.icon-box-center {
+  text-align: center; }
+
+.icon-box-single:hover {
+  /* IE6-9 fallback on horizontal gradient */
+  -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  background: #1C2025;
+  color: #ffffff; }
+
+.icon-box-single:hover h4 {
+  color: #FFFFFF; }
+
+.icon-box-single:hover p {
+  color: #FFFFFF; }
+
+/* ====================================================
+    05. Tabs Styles
+==================================================== */
+.mdl-tabs.is-upgraded .mdl-tabs__tab {
+  text-transform: uppercase !important; }
+
+.mdl-tabs.is-upgraded .mdl-tabs__tab.is-active {
+  color: #ffffff;
+  text-transform: uppercase !important; }
+
+.mdl-tabs.is-upgraded .tabs-single.is-active::after {
+  background: transparent; }
+
+.mdl-tabs__tab-bar {
+  flex-direction: column;
+  align-items: flex-end;
+  height: auto;
+  border: none;
+  margin-bottom: 20px; }
+
+.tabs-single {
+  background: #FFC300;
+  width: 100%;
+  text-align: right; }
+
+.tabs-icon-grid,
+.tabs-single {
+  border: 1px solid #e0e0e0;
+  font-family: "Khand", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding-top: 2px;
+  position: relative;
+  color: #1C2025;
+  margin-bottom: 8px;
+  height: auto; }
+
+.tabs-single:hover {
+  color: #1C2025;
+  background: #677180;
+  text-transform: uppercase; }
+
+.tabs-single .zmdi {
+  font-size: 20px;
+  margin-right: 15px; }
+
+.tabs-single.is-active {
+  border: 1px solid #e0e0e0;
+  color: #ffffff; }
+
+/* tabs v2 - icon-grid */
+.tabs-grid {
+  flex-direction: row; }
+
+.tabs-icon-grid {
+  display: inline-block !important;
+  margin: 0;
+  font-size: 14px;
+  padding: 60px;
+  border: none; }
+
+.tabs-icon-grid h5 {
+  margin-top: 15px;
+  margin-bottom: 25px; }
+
+.tabs-icon-grid .icon {
+  color: #677180; }
+
+.tabs-icon-grid.is-active .icon {
+  color: #FFC300; }
+
+.tabs-icon-grid.is-active::after {
+  background: none !important; }
+
+/* tabs - panel */
+.panel-single {
+  border-bottom: none;
+  padding: 70px 0 40px;
+  margin-bottom: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  /* IE6-9 fallback on horizontal gradient */
+  -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15); }
+
+.panel-single .icon-box-single {
+  margin-bottom: 15px !important; }
+
+.panel-single.dark {
+  background: rgba(26, 29, 36, 0.75);
+  /* IE6-9 fallback on horizontal gradient */
+  -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15); }
+
+/* ====================================================
+    06. Progress Bar Styles
+==================================================== */
+.progress-title {
+  font-weight: 600;
+  color: #30353E;
+  margin: 0 0 10px;
+  line-height: 16px;
+  text-transform: capitalize;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1px; }
+
+.progress {
+  height: 4px;
+  background: #677180;
+  border-radius: 0;
+  box-shadow: none;
+  margin-bottom: 40px;
+  overflow: visible; }
+
+.progress-bar {
+  height: 4px; }
+
+.progress .progress-bar {
+  box-shadow: none;
+  position: relative;
+  -webkit-animation: animate-positive 2s;
+  animation: animate-positive 2s; }
+
+.progress .progress-bar:after {
+  content: "";
+  display: block;
+  border: 6px solid transparent;
+  border-radius: 100%;
+  position: absolute;
+  top: -4px;
+  right: -4px; }
+
+.progress .progress-value {
+  font-size: 15px;
+  font-weight: bold;
+  color: #000;
+  position: absolute;
+  top: -24px;
+  right: 0; }
+
+.progress.default .progress-bar {
+  background: #FFC300; }
+
+.progress.default .progress-bar:after {
+  border-color: #FFC300; }
+
+/* ====================================================
+  07. Project and Portfolio Styles
+==================================================== */
+.porftolio-table {
+  position: relative;
+  padding: 0;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  text-align: center;
+  margin-bottom: 30px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
+
+.porftolio-table:hover {
+  border: 1px solid #FFC300;
+  -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15); }
+
+.porftolio-table .blog-title * {
+  text-transform: capitalize;
+  margin-bottom: 0; }
+
+.porftolio-table .porftolio-img {
+  margin: 0; }
+
+.porftolio-table .porftolio-detail {
+  background: rgba(255, 255, 255, 0.75);
+  padding: 30px 15px;
+  position: absolute;
+  top: 42%;
+  text-align: left;
+  width: 100%;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
+
+.porftolio-table .porftolio-detail div {
+  border-left: 2px solid #FFC300;
+  padding-left: 15px;
+  position: relative; }
+
+.porftolio-table .porftolio-detail div p,
+.porftolio-table .porftolio-detail div span {
+  font-size: 14px;
+  margin-bottom: 0; }
+
+.porftolio-table .porftolio-detail div h5 {
+  margin-top: 2px;
+  margin-bottom: 0; }
+
+.porftolio-table .porftolio-detail div i {
+  position: absolute;
+  right: 0;
+  top: 5px; }
+
+.porftolio-table:hover .porftolio-detail {
+  background: rgba(28, 32, 37, 0.75); }
+
+.porftolio-table:hover .porftolio-detail div h5,
+.porftolio-table:hover .porftolio-detail div p,
+.porftolio-table:hover .porftolio-detail div span {
+  color: #ffffff; }
+
+.porftolio-table:hover .porftolio-detail div i {
+  color: #FFC300; }
+
+/* ====================================================
+    08. team Styles
+==================================================== */
+.item-team {
+  margin-bottom: 60px; }
+
+.team-title {
+  border-left: 2px solid #FFC300;
+  padding-left: 15px;
+  margin-top: 30px;
+  margin-bottom: 60px; }
+
+.team-title h5 {
+  margin-bottom: 4px;
+  padding-top: 5px; }
+
+.team-detail p {
+  padding-right: 30px;
+  margin-bottom: 60px; }
+
+/* ====================================================
+    09. Price Table Styles
+==================================================== */
+.price-table {
+  background: rgba(234, 237, 246, 0.92);
+  padding: 8px;
+  position: relative;
+  margin-bottom: 20px;
+  -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15); }
+
+.price-table div.item-price {
+  border: 1px solid #677180;
+  padding: 80px 60px;
+  text-align: center; }
+
+.price-table.outstanding {
+  background: rgba(255, 195, 0, 0.92); }
+
+.price-table.outstanding hr {
+  border-color: #1C2025; }
+
+.price-table.outstanding .color {
+  color: #1C2025 !important; }
+
+/* ====================================================
+    10. Blog Table Styles
+==================================================== */
+.blog-item {
+  margin-bottom: 60px; }
+
+.blog-item .blog-table {
+  padding: 0 45px;
+  position: relative; }
+
+.blog-item .blog-title {
+  position: relative;
+  margin-bottom: 40px; }
+
+.blog-table .blog-date {
+  background: #FFC300;
+  color: #1C2025;
+  font-family: "Khand", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  display: inline-block;
+  line-height: 1;
+  font-weight: 600;
+  padding: 14px 14px 10px;
+  position: absolute; }
+
+.blog-table .blog-date span {
+  font-size: 16px;
+  letter-spacing: 0; }
+
+.blog-table .blog-autor,
+.blog-table .blog-theme {
+  position: relative;
+  margin-left: 145px; }
+
+.blog-table .blog-autor::before {
+  content: "- "; }
+
+.blog-table .blog-theme {
+  line-height: 1;
+  margin-bottom: 5px; }
+
+.blog-statistics {
+  margin-bottom: 36px; }
+
+.blog-statistics a {
+  color: #1C2025;
+  margin-right: 2rem; }
+
+.blog-statistics a i {
+  margin-right: 15px; }
+
+.blog-statistics a:last-child {
+  margin-right: 0; }
+
+.blog-statistics a:hover {
+  color: #FFC300;
+  text-decoration: none; }
+
+.comemnts_blog ul li {
+  list-style: none;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #677180; }
+
+.comemnts_blog ul li:last-child {
+  padding-bottom: 0;
+  border-bottom: none; }
+
+.comemnts_blog .title span {
+  font-family: "Roboto", sans-serif !important; }
+
+.comemnts_blog .comment_content {
+  padding-left: 90px; }
+
+.comemnts_blog a.reply {
+  background: #1C2025;
+  color: #ffffff;
+  padding: 3px 15px; }
+
+.comemnts_blog a:hover.reply {
+  background: #FFC300;
+  color: #1C2025; }
+
+.comemnts_blog a.reply i {
+  margin-right: 0.25rem; }
+
+.comemnts_blog .comment_content h5 {
+  margin-bottom: 0.25rem;
+  text-transform: capitalize; }
+
+.comemnts_blog .comment_content p.date {
+  margin-bottom: 1rem;
+  font-style: italic; }
+
+.comemnts_blog ul ul {
+  padding-left: 2.857rem; }
+
+.comemnts_blog ul ul li {
+  border-bottom: none;
+  padding-bottom: 0; }
+
+/* ====================================================
+    11. Counter Styles
+==================================================== */
+.icon-counter-single {
+  padding: 0 15px;
+  margin-bottom: 30px;
+  text-align: center;
+  padding: 45px 30px 22px;
+  margin-bottom: 30px;
+  position: relative;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
+
+.icon-counter {
+  color: #1C2025;
+  font-size: 48px;
+  margin-bottom: 30px; }
+
+.icon-counter-content .counter {
+  color: #1C2025;
+  margin-bottom: 0; }
+
+.icon-counter-single:hover * {
+  color: #ffffff; }
+
+/* ====================================================
+    12. Grid-gallery Styles
+==================================================== */
+.item-gallery {
+  margin-bottom: 30px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
+
+.grid-gallery .item-gallery-caption {
+  text-align: center;
+  padding: 25px;
+  background: #1C2025;
+  color: #EAEDF6;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
+
+.grid-gallery .item-gallery-caption h6 {
+  color: #EAEDF6;
+  margin-bottom: 0; }
+
+.item-gallery:hover {
+  -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15); }
+
+.item-gallery:hover .item-gallery-caption {
+  background: #FFC300;
+  -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15); }
+
+.item-gallery:hover .item-gallery-caption h6 {
+  color: #1C2025; }
+
+/* ====================================================
+    13. Widget Styles
+==================================================== */
+.widget {
+  margin-bottom: 100px; }
+
+.widget-body {
+  padding-left: 30px; }
+
+.widget-body ul {
+  padding-left: 0; }
+
+.widget-center {
+  text-align: center; }
+
+.widget-title {
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  border-left: 2px solid #FFC300;
+  border-bottom: 1px solid #ccc; }
+
+.widget .tags {
+  padding-left: 0; }
+
+.widget .tags a {
+  display: inline-block;
+  margin: 0 4px 8px 0;
+  padding: 5px 15px;
+  background: #1C2025;
+  color: #ffffff;
+  font-size: 11px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-weight: 300; }
+
+.widget .tags a:hover {
+  text-decoration: none;
+  background: #FFC300;
+  color: #1C2025 !important; }
+
+.widget ul li {
+  list-style-type: none; }
+
+.widget ul.recent-posts li {
+  padding: 10px 0; }
+
+.widget ul.recent-posts li a,
+.widget ul.widget-menu li a {
+  color: #1C2025; }
+
+.widget ul.recent-posts li a:hover,
+.widget ul.widget-menu li a:hover {
+  color: #FFC300 !important; }
+
+.widget ul.recent-posts li span {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.4;
+  letter-spacing: 2px;
+  color: #999;
+  margin-top: 0; }
+
+.widget ul.recent-posts li,
+.widget ul.recent-posts li a,
+.widget ul.recent-posts li span {
+  display: block; }
+
+/*# sourceMappingURL=main.css.map */
