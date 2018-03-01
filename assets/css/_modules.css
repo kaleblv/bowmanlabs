@@ -1,19 +1,129 @@
+/* nav */
+
 .main-nav .logo a img {
-    max-width: 187px !important;
-    vertical-align: top;
-    position: absolute;
-    left: 0;
-    top: 0;
-    margin-top: 18px;
+  max-width: 187px !important;
+  vertical-align: top;
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin-top: 18px;
 }
 
-
-
-.bg-img-1 {
-    background-image: url("../img/bg/hero-bg.jpg");
+.main-nav .links a {
+  text-transform: uppercase;
 }
-
 
 .overlay-dark {
-    background-color: rgba(26, 29, 36, .7);
+    background-color: rgba(26, 29, 36, .91);
+}
+
+.bg-img-1 {
+  background-image: url("../img/bg/hero-bg-1.jpg");
+}
+
+.bg-img-4 {
+  background-image: url("../img/bg/hero-bg-3.jpg");
+  background-position-y: 500px;
+}
+
+
+
+/* footer */
+
+ .item-contact a {
+   color: inherit;
+   font-weight: inherit;
+ }
+
+
+ /* main-hero */
+
+ #main-hero, #main-hero .overlay-dark, #main-hero .overlay-dark .section-space, .main-hero-wrapper {
+   height: 100vh;
+   padding: 0;
+ }
+
+ .main-hero-wrapper {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+ }
+
+
+
+
+/* service */
+
+.service {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 25px;
+  text-align: center;
+  min-height: 300px;
+}
+
+
+.service__row .col-md-6.col-lg-3 {
+  border-right: 1px solid;
+}
+
+.service__row .col-md-6.col-lg-3:last-child {
+  border-right: none;
+}
+
+.service__copy {
+  margin: 0;
+}
+
+.service__row {
+  max-width: 1080px;
+  margin: 50px auto 0 ;
+}
+
+.service__icon, .icon-box__img {
+  max-width: 100px;
+  margin-bottom: 20px;
+}
+
+
+/* process */
+
+.process {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 35px;
+  min-height: 300px;
+  border: 1px solid rgba(0, 0, 0, .08);
+}
+
+.process__row {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-column-gap: 4%;
+  grid-row-gap: 4%;
+}
+
+.process__body {
+  margin: 0;
+}
+
+/* about */
+
+.about__img {
+  border-radius: 50%;
+}
+
+.section-title {
+  margin-bottom: 50px;
+}
+
+
+#process .section-title {
+  margin-bottom: 0;
 }
