@@ -319,4 +319,9 @@ $(document).ready(function() {
         }
       });
 
+
+      // Validate form
+
+       $("#contactForm").validate();
+
     });

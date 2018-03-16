@@ -1,5 +1,6 @@
 <!-- start contact section-->
 <section id="contact" class="section-main section-space">
+  <form class="" id="contactForm" action="index.html" method="post">
   <!-- start container section-->
   <div class="container">
     <!-- start row section-->
@@ -17,7 +18,7 @@
           <div class="col-lg-6 col-xl-4">
             <div class="form-group">
               <label for="name">Nombre</label>
-              <input type="text" class="form-control" id="exampleInputname1" aria-describedby="NameHelp">
+              <input type="text" class="form-control" name="name" id="name" aria-describedby="NameHelp" required>
             </div>
           </div>
           <!-- end bordered icon box -->
@@ -25,8 +26,8 @@
           <!-- start bordered icon box -->
           <div class="col-lg-6 col-xl-4">
             <div class="form-group">
-              <label for="name">Teléfono</label>
-              <input type="number" class="form-control" id="exampleInputphone1" aria-describedby="phoneHelp">
+              <label for="telephone">Teléfono</label>
+              <input type="number" class="form-control" name="telephone"  id="telephone" aria-describedby="phoneHelp" required>
             </div>
           </div>
           <!-- end bordered icon box -->
@@ -34,8 +35,8 @@
           <!-- start bordered icon box -->
           <div class="col-lg-6 col-xl-4">
             <div class="form-group">
-              <label for="name">Email</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" name="email" id="email" aria-describedby="emailHelp" required>
             </div>
           </div>
           <!-- end bordered icon box -->
@@ -43,8 +44,8 @@
           <!-- start bordered icon box -->
           <div class="col-lg-6 col-xl-6">
             <div class="form-group">
-              <label for="name">Compañia</label>
-              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <label for="company">Compañia</label>
+              <input type="text" class="form-control" name="company" id="company" aria-describedby="emailHelp" required>
             </div>
           </div>
           <!-- end bordered icon box -->
@@ -52,8 +53,8 @@
           <!-- start bordered icon box -->
           <div class="col-lg-6 col-xl-6">
             <div class="form-group">
-              <label for="name">Estado</label>
-              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <label for="state">Estado</label>
+              <input type="text" class="form-control" name="state" id="state" aria-describedby="emailHelp" required>
             </div>
           </div>
           <!-- end bordered icon box -->
@@ -61,8 +62,8 @@
           <!-- start bordered icon box -->
           <div class="col-lg-6 col-xl-12">
             <div class="form-group">
-              <label for="name">Mensaje</label>
-              <textarea class="form-control" id="exampleTextarea" rows="5"></textarea>
+              <label for="message">Mensaje</label>
+              <textarea class="form-control" name="message" id="message" rows="5" required></textarea>
             </div>
           </div>
           <!-- end bordered icon box -->
@@ -82,5 +83,6 @@
     <!-- end row section-->
   </div>
   <!-- end container section-->
+  </form>
 </section>
 <!-- end contact section-->
