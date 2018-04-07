@@ -16,7 +16,5 @@ module.exports = {
     warnForDuplicates: env !== 'production'
   }),
   babel: jsStandards(),
-  entry: {
-    'js/main': ['./assets/js/index.js']
-  }
+  vendor: 'assets/vendor/**'
 }
